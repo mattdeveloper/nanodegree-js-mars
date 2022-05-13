@@ -1,19 +1,6 @@
 /* -------------------  MOBILE  --------------------- */
-
-body {
-  display: flex;
-  flex-direction: column;
-  font-family: Arial;
-  min-height: 100vh;
-}
-
 header {
   /* header styles */
-}
-
-main {
-  flex: 1;
-  padding: 20px;
 }
 
 footer {
