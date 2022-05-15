@@ -194,9 +194,9 @@ const getRovers = () => {
     .then((res) => res.json())
     .then((data) => {
       const { rovers } = data;
-      // updateStore({ rovers });
 
-      rovers.map((rover) => {
+      // Here we can use the forEach High-order function since we don't need to return anything
+      rovers.forEach((rover) => {
         fetch(
           `http://localhost:3000/rover/${rover.name}?max_date=${rover.max_date}`
         )
